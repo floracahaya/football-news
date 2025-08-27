@@ -31,11 +31,11 @@ SECRET_KEY = 'django-insecure-kod@54+&2uybfyp#bq6lx0omdlf56g(^ro)@my0o@-fn7*g$c$
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "flora-cahaya-footballnews.pbp.cs.ui.ac.id"]
 
 
 # Application definition
-
+    
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
