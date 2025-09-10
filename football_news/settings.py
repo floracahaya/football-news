@@ -34,8 +34,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "flora-cahaya-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://flora-cahaya-footballnews.pbp.cs.ui.ac.id."
+    "https://flora-cahaya-footballnews.pbp.cs.ui.ac.id"
 ]
+
 
 # Application definition
     
